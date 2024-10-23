@@ -101,3 +101,11 @@ SalesCo leadership is looking to get the data summarized by Seller and Buyer. Th
 - The Sales field should be calculated with the following formula:
 	- Sales = Item Cost * Sale Count
 - The Count field should be the number of unique sales for the seller/buyer grouping
+
+### Hints:
+
+- Start with summarizing data for a single sales person/buyer combo, then re-use the code generate a record for each sales person/buyer combo
+- Don't focus too much on the json parsing/serialization, use what's built into your programming language (or assume a third party library can do it for you)
+- Pay attention to the input data, there could be some weirdness
+	- Names change over time, IDs are forever. What should you use as the seller/buyer in the output?
+	

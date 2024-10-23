@@ -8,3 +8,8 @@ SalesCo is thrilled with the latest updates to the sales report! The calculation
 	- The input for the report generator will now have two additional parameters, "sortBy" and "sortDirection"
 	- The "sortBy" parameter will be a name of any of the fields in the report output.
 	- The "sortDirection" parameter will be with "asc" for ascending order or "desc" for descending order.
+
+### Hints:
+
+- When filtering by name, we want to be able to include all data for a seller even if the name differs between sales records. How would we accomplish this?
+- When sorting, what would happen if only one of the parameters were provided?

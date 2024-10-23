@@ -8,3 +8,8 @@ SalesCo was thrilled to get the report software we delivered to them! We're defi
 - The executives are looking to optimize their costs and want to know exactly how much they're paying on taxes for their sales. We need to add a Taxes field to the report. The Taxes field should be calculated using the following formula:
 	- Taxes = ( Sale Price - Item Cost ) * Sale Count
 - The SalesCo executive team has been having issues loading the report into their favorite spreadsheet software. Turns out half of the executives haven't even heard of a json file before. They'd much rather have the report be in a csv file instead.
+
+### Hints:
+
+- When making a csv file, don't forget to include a header row
+- When writing data to the csv file, be aware if the columns you're writing have commas in them
